@@ -6,7 +6,8 @@ import { useSelector, useDispatch } from 'react-redux';
 const Login = () => {
 
 const data = useSelector(state=>state.userSignin)
-
+  console.log('adding new file')
+  console.log('ddsads');
     return (
         <div className="login_imag">
         {JSON.stringify(data)}
